@@ -63,9 +63,9 @@ const Hero: React.FC = () => {
               sequence={[
                 'Desarrollador FullStack',
                 1000,
-                'Desarrollador web',
+                'Desarrollador Web',
                 1000,
-                'Desarrollador de aplicaciones',
+                'Desarrollador de Apps',
                 1000,
                 'Desarrollador de APIs',
                 1000,

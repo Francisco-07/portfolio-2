@@ -14,10 +14,10 @@ const Btn: React.FC<BtnProps> = ({ children, contained, href }) => {
         border: `1px solid ${theme.palette.secondary.main}`,
         color: `${contained ? 'secondary.contrastText' : 'secondary.main'}`,
         bgcolor: `${contained ? 'secondary.main' : 'transparent'}`,
-        py: 1.8,
-        px: 2.7,
+        py: { xs: 1.2, md: 1.8 },
+        px: { xs: 2.1, md: 2.7 },
         fontWeight: 'bold',
-        fontSize: 19,
+        fontSize: { xs: 16, md: 19 },
         transition: 'all 0.3s',
         '&:hover': {
           border: `1px solid ${theme.palette.secondary.main}`,
