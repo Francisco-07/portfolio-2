@@ -122,7 +122,11 @@ const Form: React.FC = () => {
       }}
       onSubmit={handleSubmit}
     >
-      <input type='hidden' name='access_key' value={process.env.KEY} />
+      <input
+        type='hidden'
+        name='access_key'
+        value='6903a94c-8226-4612-8405-5e93f26da622'
+      />
       <Box
         sx={{
           display: 'flex',
