@@ -122,11 +122,7 @@ const Form: React.FC = () => {
       }}
       onSubmit={handleSubmit}
     >
-      <input
-        type='hidden'
-        name='access_key'
-        value='6903a94c-8226-4612-8405-5e93f26da622'
-      />
+      <input type='hidden' name='access_key' value={process.env.KEY} />
       <Box
         sx={{
           display: 'flex',
@@ -194,7 +190,7 @@ const Form: React.FC = () => {
       <input
         type='hidden'
         name='redirect'
-        value='http://localhost:3000/success'
+        value='https://franciscogarciarena.netlify.app/success'
       />
       <div>
         <Btn href='' contained={true}>

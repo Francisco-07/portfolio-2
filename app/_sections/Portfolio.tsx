@@ -11,17 +11,17 @@ const Portfolio = () => {
     {
       title: 'Pixelar',
       text: 'landing page con un estilo moderno, creada con Next Js y Material UI.',
-      url: '#',
+      url: 'https://pixelar.netlify.app/',
     },
     {
       title: 'ProShop',
       text: 'Proyecto fullstack, desarrollado con react para el frontend, express para el backend, redux para el state managment y mongodb como base de datos, JWT, sistema de admin para realizar las operaciones CRUD',
-      url: '#',
+      url: 'https://ecom.adaptable.app/',
     },
     {
       title: 'Imgblog',
       text: 'Portfolio/blog, diseñado con Next Js, Material UI y Sanity para el manejo de contenido.',
-      url: '#',
+      url: 'https://photographyblogger.netlify.app/',
     },
   ]
   return (
